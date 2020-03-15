@@ -4,10 +4,14 @@ body{
     box-sizing: border-box;
 
 }
+.left{
+    float: left;
+    padding-right: 5px;
+    text-decoration: none;
+}
 
 .header{
     float: right;
-
 }
 
 .header a header button{
@@ -15,7 +19,6 @@ body{
     color: #000;
     text-decoration: none;
 }
-
 .header button{
     background-color: #4484f1;
     padding: 8px;
@@ -54,3 +57,22 @@ input{
     background-color: #D3D3D3;
     border: 0.5px solid lightgray;
 }
+ul li {
+    display:inline-block;
+    margin: 3px;
+}
+ul{
+    background: rgb(240, 234, 234);
+
+}
+
+.footer-left{
+float: left;
+}
+.footer-ryt{
+float: right;
+}
+
+.pppp{
+    background-color: #333;
+  }
